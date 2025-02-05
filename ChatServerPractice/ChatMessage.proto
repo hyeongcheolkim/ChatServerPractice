@@ -1,0 +1,6 @@
+syntax = "proto3";
+package Protocol;
+
+message ChatMessage{
+	uint64 val = 1;
+}

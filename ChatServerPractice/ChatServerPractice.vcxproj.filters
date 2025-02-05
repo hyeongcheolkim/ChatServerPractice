@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="pch">
+      <UniqueIdentifier>{bd38ae1d-e519-4ec3-ab87-df71f7c19f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{74324c99-9b34-4dcf-8e3c-18147d88e0aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\session">
+      <UniqueIdentifier>{d7fca12b-5021-4c2b-9224-a573cd2ef17e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\service">
+      <UniqueIdentifier>{64ca610f-925c-4084-b5ee-5c3c57ac1ee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\server">
+      <UniqueIdentifier>{4ac87996-85e4-402b-93a2-657673049536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proto">
+      <UniqueIdentifier>{07568fe0-b4cf-4108-ba71-3eb4ca85a1d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChatServerPractice.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatServer.cpp">
+      <Filter>src\server</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatMessage.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerResponse.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatServer.h">
+      <Filter>src\server</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerResponse.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatMessage.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ServerResponse.proto">
+      <Filter>proto</Filter>
+    </None>
+    <None Include="ChatMessage.proto">
+      <Filter>proto</Filter>
+    </None>
+    <None Include="CreateProto.bat">
+      <Filter>proto</Filter>
+    </None>
+  </ItemGroup>
+</Project>

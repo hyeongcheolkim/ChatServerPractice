@@ -1,0 +1,7 @@
+syntax = "proto3";
+package Protocol;
+
+message ServerResponse{
+	uint32 val = 1;
+	string test = 2;
+}
