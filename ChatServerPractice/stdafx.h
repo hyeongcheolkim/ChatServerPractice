@@ -6,6 +6,7 @@
 #else
 #pragma comment(lib, "CommonLibrariesBuildOutput\\Release\\CommonLibraries.lib")
 #pragma comment(lib, "Protobuf\\Release\\libprotobuf.lib")
+
 #endif
 
 #include "common.h"
