@@ -17,7 +17,7 @@
 
 ## 요구 사항
 - C++11 이상
-- [Protocol Buffers](https://developers.google.com/protocol-buffers) 라이브러리 (3.11.4버전전) (메시지 직렬화를 위한 라이브러리)
+- [Protocol Buffers](https://developers.google.com/protocol-buffers) 라이브러리 (3.11.4버전) (메시지 직렬화를 위한 라이브러리)
 - Windows 환경 (Winsock과 IOCP를 사용하기 위해 필요)
 
 
