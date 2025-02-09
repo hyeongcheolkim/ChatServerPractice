@@ -4,7 +4,7 @@
 
 ## 시연영상
 - 에코기능과 브로드캐스트 기능시연
-![Image](https://github.com/user-attachments/assets/ce0d05a0-ed0f-47bb-bb0e-5960ca0d1a36)
+![Image](https://github.com/user-attachments/assets/1c71f074-e1d4-47b5-9e28-6087696fbadd)
 
 ## 기능
 - **에코**: 서버는 클라이언트의 메시지를 받아 "(echo)" 접두어를 붙여서 다시 전송합니다.
