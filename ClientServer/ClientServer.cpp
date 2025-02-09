@@ -113,7 +113,6 @@ int main()
 
 	cout << "Connected to Server!" << '\n';
 
-	char sendBuffer[BUFSIZE];
 	CHAT_OVERLAPPED overlapped{};
 	overlapped.chatType = ChatType::CHAT_FROM_CLIENT;
 	Protocol::Chat chat;
