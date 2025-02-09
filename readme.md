@@ -1,7 +1,9 @@
 # IOCP 기반 채팅 서버 및 클라이언트 (Windows)
 
 이 프로젝트는 C++로 작성된 간단한 채팅 애플리케이션으로, 서버와 클라이언트 모델을 사용하며, 비동기 처리를 위해 IOCP(입출력 완료 포트)를 활용합니다. 채팅은 **에코**와 **브로드캐스트** 메시지 타입을 지원합니다. 메시지 직렬화에는 Protocol Buffers를 사용하고, 네트워킹에는 Winsock을 사용합니다.
-
+## 파일 구조
+- [Client코드 바로가기](https://github.com/hyeongcheolkim/ChatServerPractice/blob/master/ClientServer/ClientServer.cpp)
+- [Server코드 바로가기](https://github.com/hyeongcheolkim/ChatServerPractice/blob/master/ChatServerPractice/ChatServerPractice.cpp)
 ## 시연영상
 - 에코기능과 브로드캐스트 기능시연
 ![Image](https://github.com/user-attachments/assets/1c71f074-e1d4-47b5-9e28-6087696fbadd)
@@ -18,10 +20,6 @@
 - [Protocol Buffers](https://developers.google.com/protocol-buffers) 라이브러리 (3.11.4버전전) (메시지 직렬화를 위한 라이브러리)
 - Windows 환경 (Winsock과 IOCP를 사용하기 위해 필요)
 
-## 파일 구조
-- `Chat.pb.h`: Protocol Buffers에서 생성된 헤더 파일로, 채팅 메시지 구조를 정의합니다.
-- `stdafx.h`: 미리 컴파일된 헤더 (Visual Studio 호환).
-- `main.cpp`: 서버와 클라이언트의 주요 로직이 포함된 프로그램입니다. IOCP 처리 및 메시지 처리 기능을 구현합니다.
 
 ## 코드 설명
 
