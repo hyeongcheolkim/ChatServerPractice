@@ -4,15 +4,6 @@
     <Filter Include="common">
       <UniqueIdentifier>{5a41aeec-d309-4471-ab14-e1d9a1b2267c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="session">
-      <UniqueIdentifier>{47d9e13e-7584-4169-9a6b-05a406bd9298}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="network">
-      <UniqueIdentifier>{ab65ebea-13d0-445e-9b68-d4682dfc4e65}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="datastruct">
-      <UniqueIdentifier>{0ca7d48f-634f-4ec0-ba7e-6a91e90272d3}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -24,9 +15,6 @@
     <ClInclude Include="Types.h">
       <Filter>common</Filter>
     </ClInclude>
-    <ClInclude Include="ConcurrentSet.h">
-      <Filter>datastruct</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -34,9 +22,6 @@
     </ClCompile>
     <ClCompile Include="CommonLibraries.cpp">
       <Filter>common</Filter>
-    </ClCompile>
-    <ClCompile Include="ConcurrentSet.cpp">
-      <Filter>datastruct</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

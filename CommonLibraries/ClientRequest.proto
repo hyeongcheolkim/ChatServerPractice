@@ -1,0 +1,13 @@
+syntax = "proto3";
+package Protocol;
+
+enum DesiredAction{
+	ECHO = 0;
+	BROADCAST = 1;
+}
+
+message ClientRequest
+{
+	string content = 1;
+	DesiredAction DesiredAction = 2;
+}

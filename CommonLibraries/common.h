@@ -13,6 +13,16 @@
 #include <functional>
 using namespace std;
 
-#pragma once
+#ifdef _DEBUG
+#pragma comment(lib, "CommonLibrariesBuildOutput\\Debug\\CommonLibraries.lib")
+#pragma comment(lib, "Protobuf\\Debug\\libprotobufd.lib")
+#else
+#pragma comment(lib, "CommonLibrariesBuildOutput\\Release\\CommonLibraries.lib")
+#pragma comment(lib, "Protobuf\\Release\\libprotobuf.lib")
 
+#endif
+
+#include <mswsock.h>
+#include <ws2tcpip.h>
+#pragma comment(lib, "ws2_32.lib")
 #include "common.h"

@@ -4,21 +4,35 @@
     <Filter Include="pch">
       <UniqueIdentifier>{1f88bc72-448c-4fcb-af9f-468f0a503070}</UniqueIdentifier>
     </Filter>
+    <Filter Include="proto">
+      <UniqueIdentifier>{005cfe38-861d-40c7-9d14-28fc4c9d956e}</UniqueIdentifier>
+    </Filter>
     <Filter Include="src">
-      <UniqueIdentifier>{2729dc16-233c-451d-9c85-d6eed0f8b2a9}</UniqueIdentifier>
+      <UniqueIdentifier>{b8ca4bb7-0a5a-4ef8-886c-fb887e726c90}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ClientServer.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Chat.pb.cc">
+      <Filter>proto</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientServer.cpp">
+      <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
       <Filter>pch</Filter>
     </ClInclude>
+    <ClInclude Include="Chat.pb.h">
+      <Filter>proto</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Chat.proto">
+      <Filter>proto</Filter>
+    </None>
   </ItemGroup>
 </Project>
